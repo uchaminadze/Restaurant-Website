@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <nav>
+          <a href="home.html"><img src="img/logo.svg" alt="logo"></a>
+         <ul>
+             <li><a class="active" href="#">home</a></li>
+             <li><a class="nav-a menu" id="menu" href="#" >menu</a></li> 
+             <li><a class="nav-a" href="#">locations</a></li>
+
+
+           
+             <div class="dropdown1">
+                <li class="ordernow"><a class="nav-a order " id="order" href="#" onclick="mySFunction()">order now</a></li>
+                 <span class="arrow1"  id="arrow1"><i class="down"></i> </span>
+                 <div class="dropdown-content1" id="dropdown-c1">
+                    <li><a class="drop-a1" href="#">uber eats bayview</a></li>
+                    <li><a class="drop-a1" href="#">uber eats danforth</a></li>
+                    <li><a class="drop-a1" href="#">uber eats ossington</a></li>
+                    <li><a class="drop-a1" href="#">uber eats univeristy</a></li>
+                    <li><a class="drop-a1" href="#">bayview village pickup</a></li>
+                    <li><a class="drop-a1" href="#">online pick-up ordering</a></li>
+                </div>
+                <span class="triangle1" id="triangle1"> </span>
+                <div class="dropdown_content1" id="dropdown_c1">
+                    <li><a class="drop_a1" href="#">uber eats bayview</a></li>
+                    <li><a class="drop_a1" href="#">uber eats danforth</a></li>
+                    <li><a class="drop_a1" href="#">uber eats ossington</a></li>
+                    <li><a class="drop_a1" href="#">uber eats univeristy</a></li>
+                    <li><a class="drop_a1" href="#">bayview village pickup</a></li>
+                    <li><a class="drop_a1" href="#">online pick-up ordering</a></li>
+                </div>
+               </div>
+         </ul>
+         <div onclick="burgerFunction()" class="burger-icon" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+         </div>
+     </nav>
+     
+<section class="home-s-1">
+    <div id="slideshow">
+        <div>
+            <img src="img/slide.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide1.webp" alt="image">
+        </div>
+        <div>
+          <img src="img/slide2.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide3.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide4.webp" alt="image">
+        </div>
+        <div>
+          <img src="img/slide5.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide6.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide7.webp" alt="image">
+        </div>
+        <div>
+          <img src="img/slide8.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide9.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide10.webp" alt="image">
+        </div>
+        <div>
+          <img src="img/slide11.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide12.webp" alt="image">
+        </div>
+        <div>
+            <img src="img/slide13.webp" alt="image">
+        </div>
+        <div>
+          <img src="img/slide14.webp" alt="image">
+        </div>
+        <h1 class="img-text">The real Italian pizza</h1>
+        <button class="pick-up">pick-up</button>
+        <button class="reserv">make a reservation</button>
+    
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <form action="#" class="join">
+                <input type="email" name="email" class="email" id="email" required="" placeholder="Enter your email">
+                <button class="email-button">join</button>
+        </form>
+        <ol>
+            <li><a href="#">safety protocols</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">faq</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">contuct us</a></li>
+        </ol>
+        <div class="icons">
+            <a href="#" class="facebook"><i class="fa fa-facebook" id="facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter" id="twitter"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram" id="instagram"></i></a>
+         </div>
+         
+    </div>
+</footer>
+
+
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script src="index.js"></script>
+     <script src="slideshow.js"></script>
+</body>
+</html>
